@@ -1,0 +1,13 @@
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\bin\Debug\netcoreapp3.1\Algoritmi.exe
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\bin\Debug\netcoreapp3.1\Algoritmi.deps.json
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\bin\Debug\netcoreapp3.1\Algoritmi.runtimeconfig.json
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\bin\Debug\netcoreapp3.1\Algoritmi.runtimeconfig.dev.json
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\bin\Debug\netcoreapp3.1\Algoritmi.dll
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\bin\Debug\netcoreapp3.1\Algoritmi.pdb
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\obj\Debug\netcoreapp3.1\Algoritmi.csprojAssemblyReference.cache
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\obj\Debug\netcoreapp3.1\Algoritmi.AssemblyInfoInputs.cache
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\obj\Debug\netcoreapp3.1\Algoritmi.AssemblyInfo.cs
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\obj\Debug\netcoreapp3.1\Algoritmi.csproj.CoreCompileInputs.cache
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\obj\Debug\netcoreapp3.1\Algoritmi.dll
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\obj\Debug\netcoreapp3.1\Algoritmi.pdb
+D:\L_SCHIAVON_DOCUMENTS\LAVORO\GIT\Algoritmi\Algoritmi\obj\Debug\netcoreapp3.1\Algoritmi.genruntimeconfig.cache
