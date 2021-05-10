@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Algoritmi.Algoritmi1
 {
-    class LinkedList
+    public class LinkedList
     {
         private int size;
-        private class Node
+        public class Node
         {
             public int value;
             public Node next;
@@ -18,8 +18,8 @@ namespace Algoritmi.Algoritmi1
             }
         }
 
-        private Node first;
-        private Node last;
+        public Node first;
+        public Node last;
 
 
         public void AddFirst(int item)
@@ -177,6 +177,57 @@ namespace Algoritmi.Algoritmi1
             }
             return a.value;
         }
+
+        public int[] PrintMiddle()
+        {
+            //estrae i valori medi
+            if (IsEmpty())
+                throw new Exception();
+            int[] middleValues;
+            var middle = first;
+            var end = first;
+
+
+            while (end != last && end.next!=last)
+              
+                {
+                middle = middle.next;
+             
+                end = end.next.next;
+               
+            }
+
+            if (end == last)
+            {
+                middleValues= new int[1] { middle.value };
+            }
+            else
+            {
+                middleValues= new int[2] { middle.value, middle.next.value };
+            }
+            return middleValues;
+               
+        }
+
+
+        public bool hasLoop()
+        {
+            var slow = first;
+            var fast = first;
+
+            while (fast != null && fast.next != null)
+            {
+                slow = slow.next;
+                fast = fast.next.next;
+
+                if (slow == fast)
+                    return true;
+            }
+
+            return false;
+        }
+
+        
 
         private bool IsEmpty()
         {
