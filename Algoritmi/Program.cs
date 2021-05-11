@@ -71,14 +71,30 @@ namespace Algoritmi
             //twoStacks.pop1();
             //twoStacks.pop2();
 
-            MinStack minStack = new MinStack();
-            minStack.Push(2);
-            minStack.Push(4);
-            minStack.Push(3);
-            minStack.Push(1);
-            var min1 = minStack.Min();
-            minStack.Pop();
-            var min2 = minStack.Min();
+            //MinStack minStack = new MinStack();
+            //minStack.Push(2);
+            //minStack.Push(4);
+            //minStack.Push(3);
+            //minStack.Push(1);
+            //var min1 = minStack.Min();
+            //minStack.Pop();
+            //var min2 = minStack.Min();
+
+
+            ArrayQueue arrayQueue = new ArrayQueue(5);
+
+            arrayQueue.Enqueue(10);
+            arrayQueue.Enqueue(20);
+            arrayQueue.Enqueue(30);
+            arrayQueue.Enqueue(40);
+            //arrayQueue.Enqueue(50);
+            arrayQueue.Dequeue();
+            arrayQueue.Dequeue();
+         
+            arrayQueue.Enqueue(60);
+            arrayQueue.Enqueue(70);
+          
+
         }
 
 
