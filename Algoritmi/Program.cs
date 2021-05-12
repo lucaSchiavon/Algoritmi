@@ -93,7 +93,17 @@ namespace Algoritmi
          
             arrayQueue.Enqueue(60);
             arrayQueue.Enqueue(70);
-          
+
+            PriorityQueue priorityQueue = new PriorityQueue(5);
+            priorityQueue.Add(4);
+            priorityQueue.Add(8);
+            priorityQueue.Add(3);
+            priorityQueue.Add(1);
+            priorityQueue.Add(5);
+            int val1 = priorityQueue.Remove();
+            int val2 = priorityQueue.Remove();
+            priorityQueue.Add(10);
+            priorityQueue.Add(9);
 
         }
 
