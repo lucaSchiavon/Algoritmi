@@ -16,25 +16,31 @@ namespace Algoritmi.Algoritmi1
 
         public void Add(int item)
         {
-            if (IsEmpty())
+            if (IsFull())
                 throw new Exception();
 
-            int i;
-            for ( i = count-1; i >= 0; i--)
-            {
+            
+            int i = ShiftItemToInsert(item);
 
+            items[i] = item;
+            count++;
+          
+        }
+
+        private int ShiftItemToInsert(int item)
+        {
+            int i;
+            for (i = count - 1; i >= 0; i--)
+            {
                 if (item < items[i])
                 {
                     items[i + 1] = items[i];
                 }
                 else
                     break;
-
             }
 
-            items[i+1] = item;
-            count++;
-          
+            return i+1;
         }
 
         public int Remove()
@@ -45,11 +51,15 @@ namespace Algoritmi.Algoritmi1
             return items[--count];
         }
 
-        public bool IsEmpty()
+        public bool IsFull()
         {
             return items.Length == count;
         }
+        public bool IsEmpty()
+        {
+            return count==0;
+        }
 
-      
+
     }
 }

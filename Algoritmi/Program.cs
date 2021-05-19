@@ -1,5 +1,7 @@
 ﻿//using System;
 using Algoritmi.Algoritmi1;
+using System.Collections.Generic;
+
 namespace Algoritmi
 {
     class Program
@@ -63,7 +65,7 @@ namespace Algoritmi
             //twoStacks.push2(10);
             //twoStacks.push1(20);
             //twoStacks.push1(30);
-            
+
             //twoStacks.push2(10);
             //twoStacks.push2(20);
             //twoStacks.push2(30);
@@ -81,30 +83,66 @@ namespace Algoritmi
             //var min2 = minStack.Min();
 
 
-            ArrayQueue arrayQueue = new ArrayQueue(5);
+            //ArrayQueue arrayQueue = new ArrayQueue(5);
 
-            arrayQueue.Enqueue(10);
-            arrayQueue.Enqueue(20);
-            arrayQueue.Enqueue(30);
-            arrayQueue.Enqueue(40);
-            //arrayQueue.Enqueue(50);
-            arrayQueue.Dequeue();
-            arrayQueue.Dequeue();
-         
-            arrayQueue.Enqueue(60);
-            arrayQueue.Enqueue(70);
+            //arrayQueue.Enqueue(10);
+            //arrayQueue.Enqueue(20);
+            //arrayQueue.Enqueue(30);
+            //arrayQueue.Enqueue(40);
+            ////arrayQueue.Enqueue(50);
+            //arrayQueue.Dequeue();
+            //arrayQueue.Dequeue();
 
-            PriorityQueue priorityQueue = new PriorityQueue(5);
-            priorityQueue.Add(4);
-            priorityQueue.Add(8);
-            priorityQueue.Add(3);
-            priorityQueue.Add(1);
-            priorityQueue.Add(5);
-            int val1 = priorityQueue.Remove();
-            int val2 = priorityQueue.Remove();
-            priorityQueue.Add(10);
-            priorityQueue.Add(9);
+            //arrayQueue.Enqueue(60);
+            //arrayQueue.Enqueue(70);
 
+            //PriorityQueue priorityQueue = new PriorityQueue(5);
+            //priorityQueue.Add(4);
+            //priorityQueue.Add(8);
+            //priorityQueue.Add(3);
+            //priorityQueue.Add(1);
+            //priorityQueue.Add(5);
+            //int val1 = priorityQueue.Remove();
+            //int val2 = priorityQueue.Remove();
+            //priorityQueue.Add(10);
+            //priorityQueue.Add(9);
+
+            //Algoritmi.Algoritmi1.Esercizi.QueueReverser queueReverser = new Algoritmi.Algoritmi1.Esercizi.QueueReverser();
+            //Queue<int> queue =new  Queue<int>();
+            //queue.Enqueue(10);
+            //queue.Enqueue(20);
+            //queue.Enqueue(30);
+            //queue.Enqueue(40);
+            //queue.Enqueue(50);
+            //queueReverser.Reverse(queue, 3);
+
+            // Algoritmi.Algoritmi1.Esercizi.QueueFromLinkedList queueFromLinkedList = new Algoritmi1.Esercizi.QueueFromLinkedList();
+
+            // queueFromLinkedList.Enqueue(10);
+            // queueFromLinkedList.Enqueue(30);
+            // queueFromLinkedList.Enqueue(8);
+            // queueFromLinkedList.Enqueue(15);
+            // int size = queueFromLinkedList.Size();
+            //int val= queueFromLinkedList.Peek();
+            // size = queueFromLinkedList.Size();
+            // queueFromLinkedList.Dequeue();
+            // queueFromLinkedList.Dequeue();
+            // size = queueFromLinkedList.Size();
+            // queueFromLinkedList.Enqueue(2);
+            // queueFromLinkedList.Enqueue(4);
+
+
+            //  Algoritmi.Algoritmi1.Esercizi.StackWithTwoQueues stackWithTwoQueues = new Algoritmi1.Esercizi.StackWithTwoQueues();
+            //  stackWithTwoQueues.push(10);
+            //  stackWithTwoQueues.push(20);
+            //  stackWithTwoQueues.push(30);
+            //int val=  stackWithTwoQueues.pop();
+            // val = stackWithTwoQueues.pop();
+            //   val = stackWithTwoQueues.pop();
+
+            Algoritmi.Algoritmi1.Esercizi.HashtableRepeatedChar hashtableRepeatedChar = new Algoritmi1.Esercizi.HashtableRepeatedChar();
+            char FirstNotRepeatedchar = hashtableRepeatedChar.GetFirstNotRepeatedChar("an appllee");
+            char FirstRepeatedchar = hashtableRepeatedChar.GetFirstRepeatedChar("n appllee");
         }
 
 
