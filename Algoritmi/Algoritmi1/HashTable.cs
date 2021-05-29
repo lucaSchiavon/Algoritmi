@@ -23,13 +23,14 @@ namespace Algoritmi.Algoritmi1
 
         public void Put(int k, string v)
         {
-
+            //cerca l'entità e se presente la aggiorna
             var entry = GetEntry(k);
             if (entry != null)
             {
                 entry.value = v;
                 return;
             }
+            //altrimenti crea eventualmente il bucket se non c'è e la aggiunge
             GetOrCreateBucket(k).AddLast(new Entry(k, v));
           
 

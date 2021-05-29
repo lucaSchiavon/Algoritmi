@@ -1,5 +1,7 @@
 ﻿//using System;
 using Algoritmi.Algoritmi1;
+using Algoritmi.Algoritmi2;
+using Algoritmi.Algoritmi2.Esercizi;
 using System.Collections.Generic;
 
 namespace Algoritmi
@@ -140,9 +142,27 @@ namespace Algoritmi
             // val = stackWithTwoQueues.pop();
             //   val = stackWithTwoQueues.pop();
 
-            Algoritmi.Algoritmi1.Esercizi.HashtableRepeatedChar hashtableRepeatedChar = new Algoritmi1.Esercizi.HashtableRepeatedChar();
-            char FirstNotRepeatedchar = hashtableRepeatedChar.GetFirstNotRepeatedChar("an appllee");
-            char FirstRepeatedchar = hashtableRepeatedChar.GetFirstRepeatedChar("n appllee");
+            //Algoritmi.Algoritmi1.Esercizi.HashtableRepeatedChar hashtableRepeatedChar = new Algoritmi1.Esercizi.HashtableRepeatedChar();
+            //char FirstNotRepeatedchar = hashtableRepeatedChar.GetFirstNotRepeatedChar("an appllee");
+            //char FirstRepeatedchar = hashtableRepeatedChar.GetFirstRepeatedChar("n appllee");
+
+
+            Fattoriale fattoriale = new Fattoriale();
+            int fatt = fattoriale.Factorial2(5);
+
+            Tree tree = new Tree();
+            tree.Insert(7);
+            tree.Insert(4);
+            tree.Insert(9);
+            tree.Insert(1);
+            tree.Insert(6);
+            tree.Insert(8);
+            tree.Insert(10);
+            tree.TraversePreOrder();
+            //tree.TraverseInOrder();
+            //tree.TraversePostOrder();
+             int min= tree.Min();
+           int height= tree.Height();
         }
 
 
